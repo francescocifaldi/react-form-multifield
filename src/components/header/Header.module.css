@@ -1,5 +1,18 @@
-header {
-    text-align: center;
-    padding: 10px 0;
-    height: 48px;
+.header {
+	background-color: #dddddd;
+	color: rgb(85, 85, 85);
+	padding: 1.5rem 0;
+}
+
+.nav_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
 }

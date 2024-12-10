@@ -1,9 +1,8 @@
-.btn {
-    background-color: orange;
-    color: white;
-    border: none;
-    height: 1.5rem;
-    padding: 0 10px;
-    border-radius: 25px;
-    cursor: pointer;
+.button {
+	background-color: gold;
+	color: white;
+	line-height: 2rem;
+	padding: 0 1rem;
+	text-align: center;
+	border-radius: 0.5rem;
 }

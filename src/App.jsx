@@ -1,6 +1,7 @@
-import Header from "./components/header/Header.jsx"
-import Footer from "./components/footer/Footer.jsx"
-import Main from "./components/main/main.jsx"
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
+import Main from './components/Main/Main'
+
 
 function App() {
 

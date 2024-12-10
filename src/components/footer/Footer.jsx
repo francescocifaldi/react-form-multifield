@@ -1,11 +1,12 @@
+import { classNames } from '../../lib/utilities'
 import style from './Footer.module.css'
 
 export default function Footer() {
-    return (
-        <footer>
-            <div className="container">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis iure libero earum ex, suscipit officia asperiores quam et facilis ipsa, pariatur quos non tempore? Iste maiores suscipit omnis, et fugiat id enim inventore voluptatem ipsum quod aliquam quia totam minima.</p>
-            </div>
-        </footer>
-    )
+  return (
+    <footer className={style.footer}>
+      <div className='container'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate debitis fugiat vel odit, minima, aliquam voluptas officia, modi voluptatum esse ratione ad necessitatibus rem! Voluptate ipsam nostrum consequuntur quibusdam.
+      </div>
+    </footer>
+  )
 }
